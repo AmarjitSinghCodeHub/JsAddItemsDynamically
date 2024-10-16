@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: f2f2f2;
+    color:#222;
+    font-size:10pt;
+}
+
+input[type='text']{
+    background-color:#fff;
+    border:1px solid #a8a8a8;
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+    padding: 0 5px;
+    color:#222;
+    font-size: 10pt;
+    outline: none;
+}
+
+input[type='text']:focus{
+    border:1px solid #81fcb8;
+}
+
+button{
+    outline:none;
+    background-color: #f1efef;
+    border:1px solid #c5c5c5;
+    height: 30px;
+    text-align: center;
+    color:#222;
+    font-weight: 400;
+    font-size: 10pt;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
+
+.div-items-container{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+}
+
+
+
+.ulItem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+.ulItem li{
+    width: 100%;
+    height: 30px;
+    background-color: #d7fae7;
+    color:#222;
+    font-size:11pt;
+    font-weight: 100;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 0 5px;
+    display: block;
+    margin: 2px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ulItem li span{
+    font-size:12px;
+    font-weight: 700;
+    color: #04803c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spCls{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #10b85b;
+    color:#b7f3d2 !important;
+line-height: 18px !important;
+text-align: center !important;
+    font-size: 8pt !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+
+}
